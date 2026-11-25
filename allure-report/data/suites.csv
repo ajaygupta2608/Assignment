@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","29447","Invalid login displays an error message","chromium","2026-11-24","passed","2026-11-24","","","",""
+"","24104","URL Assertion After Navigation","chromium","2026-11-24","passed","2026-11-24","","","",""
+"","17546","Page Title Validation","chromium","2026-11-24","passed","2026-11-24","","","",""
+"","14859","Home page logo is visible","chromium","2026-11-24","passed","2026-11-24","","","",""
+"","28910","Logo Visibilty Assertion","chromium","2026-11-24","failed","2026-11-24","","","",""
+"","16402","Logo Visibility Assertion","chromium","2026-11-24","passed","2026-11-24","","","",""
+"","11816","Assertion on signup heading","chromium","2026-11-24","passed","2026-11-24","","","",""
