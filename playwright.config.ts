@@ -34,11 +34,11 @@ export default defineConfig({
     ],
   ],
   //reporter: 'html',
-  timeout: 60000,
+  timeout: 100000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     launchOptions: {
-      slowMo: 5000,
+      slowMo: 3000,
 
       headless: false,
     },

@@ -1,0 +1,131 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: InputField.spec.ts >> Signup fields return the entered values
+- Location: tests\InputField.spec.ts:3:1
+
+# Error details
+
+```
+Error: locator.fill: Error: strict mode violation: getByRole('textbox', { name: 'Email Address' }) resolved to 3 elements:
+    1) <input value="" required="" type="email" name="email" data-qa="login-email" placeholder="Email Address"/> aka locator('form').filter({ hasText: 'Login' }).getByPlaceholder('Email Address')
+    2) <input value="" required="" type="email" name="email" data-qa="signup-email" placeholder="Email Address"/> aka locator('form').filter({ hasText: 'Signup' }).getByPlaceholder('Email Address')
+    3) <input required="" type="email" id="susbscribe_email" placeholder="Your email address"/> aka getByRole('textbox', { name: 'Your email address' })
+
+Call log:
+  - waiting for getByRole('textbox', { name: 'Email Address' })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]
+        - textbox "Password" [ref=e45]
+        - button "Login" [ref=e46] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e48]
+    - generic [ref=e50]:
+      - heading "New User Signup!" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - textbox "Name" [active] [ref=e53]: Ajay Gupta
+        - textbox "Email Address" [ref=e54]
+        - button "Signup" [ref=e55] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - generic [ref=e61]:
+      - heading "Subscription" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - textbox "Your email address" [ref=e64]
+        - button "" [ref=e65] [cursor=pointer]
+        - paragraph [ref=e67]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e71]:
+      - text: Copyright © 2021 All rights reserved
+      - link "File a Trademark" [ref=e72] [cursor=pointer]
+  - text: 
+  - insertion [ref=e77]:
+    - generic [ref=e80]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e82]: Discover more
+      - link "Secure Login Solutions" [ref=e83] [cursor=pointer]
+      - link "User Authentication Service" [ref=e88] [cursor=pointer]
+      - link "Account Management Software" [ref=e93] [cursor=pointer]
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from "@playwright/test";
+  2  | 
+  3  | test("Signup fields return the entered values", async ({ page }) => {
+  4  |   await page.goto("https://www.automationexercise.com/login");
+  5  | 
+  6  |   const name = "Ajay Gupta";
+  7  |   const email = "ajay123@gmail.com";
+  8  |   const nameField = page.getByRole("textbox", { name: "Name" });
+  9  |   const emailField = page.getByRole("textbox", { name: "Email Address" });
+  10 | 
+  11 |   await nameField.fill(name);
+> 12 |   await emailField.fill(email);
+     |                    ^ Error: locator.fill: Error: strict mode violation: getByRole('textbox', { name: 'Email Address' }) resolved to 3 elements:
+  13 | 
+  14 |   const enteredName = await nameField.inputValue();
+  15 |   const enteredEmail = await emailField.inputValue();
+  16 | 
+  17 |   expect(enteredName).toBe(name);
+  18 |   expect(enteredEmail).toBe(email);
+  19 | });
+```
