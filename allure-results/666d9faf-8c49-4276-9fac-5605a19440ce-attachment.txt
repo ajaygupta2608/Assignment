@@ -1,0 +1,2 @@
+Newsletter Checkbox is checked: true
+Optin Checkbox is checked: true
