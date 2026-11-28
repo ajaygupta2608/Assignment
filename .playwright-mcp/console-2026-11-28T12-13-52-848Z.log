@@ -1,0 +1,19 @@
+[    1907ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.stadsolution.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:2
+[    2647ms] [WARNING] jQuery.Deferred exception: header_height is not defined ReferenceError: header_height is not defined
+    at ApusThemeCore.course_init (https://www.stadsolution.com/wp-content/themes/educrat/js/course.js?ver=20150330:31:31)
+    at ApusThemeCore.loadExtension (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:104:46)
+    at ApusThemeCore.init (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:87:18)
+    at HTMLDocument.<anonymous> (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:590:28)
+    at e (https://www.stadsolution.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://www.stadsolution.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://www.stadsolution.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2
+[    2768ms] ReferenceError: header_height is not defined
+    at ApusThemeCore.course_init (https://www.stadsolution.com/wp-content/themes/educrat/js/course.js?ver=20150330:31:31)
+    at ApusThemeCore.loadExtension (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:104:46)
+    at ApusThemeCore.init (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:87:18)
+    at HTMLDocument.<anonymous> (https://www.stadsolution.com/wp-content/themes/educrat/js/functions.js?ver=20150330:590:28)
+    at e (https://www.stadsolution.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://www.stadsolution.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[    3095ms] [WARNING] Unable to create a text session because the service is not running. @ https://www.stadsolution.com/automation-testing-practice/:1
+[    3097ms] [WARNING] Unable to create a text session because the service is not running. @ https://www.stadsolution.com/automation-testing-practice/:1
+[    3512ms] [ERROR] Access to XMLHttpRequest at 'https://reallyfreegeoip.org/json/' from origin 'https://www.stadsolution.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.stadsolution.com/automation-testing-practice/:1
+[    3537ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://reallyfreegeoip.org/json/:1

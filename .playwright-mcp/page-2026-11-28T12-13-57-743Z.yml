@@ -1,0 +1,562 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e7]:
+    - banner [ref=f5e8]:
+      - generic [ref=f5e10]:
+        - generic [ref=f5e11]: QA
+        - generic [ref=f5e12]:
+          - generic [ref=f5e13]: Automation Testing Practice
+          - generic [ref=f5e14]: Selenium · Cypress · Playwright
+    - generic [ref=f5e15]:
+      - heading [level=1] [ref=f5e16]:
+        - img "🧪" [ref=f5e17]
+        - text: Practice Automation Testing
+      - paragraph [ref=f5e18]: All UI elements in one place — forms, tables, popups, drag & drop, sliders, and more
+      - generic [ref=f5e19]:
+        - generic [ref=f5e20]:
+          - img "✅" [ref=f5e21]
+          - text: 14 Sections
+        - generic [ref=f5e22]:
+          - img "🖱" [ref=f5e23]
+          - text: Interactive
+        - generic [ref=f5e24]:
+          - img "📱" [ref=f5e25]
+          - text: Responsive
+        - generic [ref=f5e26]:
+          - img "⚡" [ref=f5e27]
+          - text: All Features Live
+    - main [ref=f5e28]:
+      - generic [ref=f5e29]:
+        - generic [ref=f5e30]:
+          - img "📝" [ref=f5e32]
+          - heading "GUI Form Elements" [level=2] [ref=f5e33]
+          - generic [ref=f5e34]: Section 1
+        - generic [ref=f5e35]:
+          - generic [ref=f5e36]:
+            - generic [ref=f5e37]:
+              - generic [ref=f5e38]: Full Name
+              - textbox "e.g. Rahul Sharma" [ref=f5e39]
+            - generic [ref=f5e40]:
+              - generic [ref=f5e41]: Email Address
+              - textbox "rahul@example.com" [ref=f5e42]
+            - generic [ref=f5e43]:
+              - generic [ref=f5e44]: Phone
+              - textbox "+91 98765 43210" [ref=f5e45]
+            - generic [ref=f5e46]:
+              - generic [ref=f5e47]: Address
+              - textbox "Enter full address..." [ref=f5e48]
+          - generic [ref=f5e49]:
+            - generic [ref=f5e50]:
+              - generic [ref=f5e51]: Gender
+              - generic [ref=f5e52]:
+                - generic [ref=f5e53] [cursor=pointer]:
+                  - radio "Male" [ref=f5e54]
+                  - text: Male
+                - generic [ref=f5e55] [cursor=pointer]:
+                  - radio "Female" [ref=f5e56]
+                  - text: Female
+                - generic [ref=f5e57] [cursor=pointer]:
+                  - radio "Other" [ref=f5e58]
+                  - text: Other
+            - generic [ref=f5e59]:
+              - generic [ref=f5e60]: Days Available
+              - generic [ref=f5e61]:
+                - generic [ref=f5e62] [cursor=pointer]:
+                  - checkbox "Sun" [ref=f5e63]
+                  - text: Sun
+                - generic [ref=f5e64] [cursor=pointer]:
+                  - checkbox "Mon" [ref=f5e65]
+                  - text: Mon
+                - generic [ref=f5e66] [cursor=pointer]:
+                  - checkbox "Tue" [ref=f5e67]
+                  - text: Tue
+                - generic [ref=f5e68] [cursor=pointer]:
+                  - checkbox "Wed" [ref=f5e69]
+                  - text: Wed
+                - generic [ref=f5e70] [cursor=pointer]:
+                  - checkbox "Thu" [ref=f5e71]
+                  - text: Thu
+                - generic [ref=f5e72] [cursor=pointer]:
+                  - checkbox "Fri" [ref=f5e73]
+                  - text: Fri
+                - generic [ref=f5e74] [cursor=pointer]:
+                  - checkbox "Sat" [ref=f5e75]
+                  - text: Sat
+          - generic [ref=f5e76]:
+            - generic [ref=f5e77]:
+              - generic [ref=f5e78]: Country
+              - combobox [ref=f5e79] [cursor=pointer]:
+                - option "— Select Country —" [selected]
+                - option "India"
+                - option "United States"
+                - option "United Kingdom"
+                - option "Canada"
+                - option "Australia"
+                - option "Germany"
+                - option "France"
+                - option "Japan"
+                - option "China"
+                - option "Brazil"
+            - generic [ref=f5e80]:
+              - generic [ref=f5e81]: Testing Tools (Multi-select)
+              - listbox [ref=f5e82] [cursor=pointer]:
+                - option "Selenium" [ref=f5e83]
+                - option "Cypress" [ref=f5e84]
+                - option "Playwright" [ref=f5e85]
+                - option "Appium" [ref=f5e86]
+                - option "TestNG" [ref=f5e87]
+                - option "JUnit" [ref=f5e88]
+                - option "Postman" [ref=f5e89]
+            - generic [ref=f5e90]:
+              - generic [ref=f5e91]: Indian Birds (Sorted)
+              - listbox [ref=f5e92] [cursor=pointer]:
+                - option "Bulbul" [ref=f5e93]
+                - option "Crane" [ref=f5e94]
+                - option "Flamingo" [ref=f5e95]
+                - option "Hornbill" [ref=f5e96]
+                - option "Kingfisher" [ref=f5e97]
+                - option "Myna" [ref=f5e98]
+                - option "Parrot" [ref=f5e99]
+                - option "Peacock" [ref=f5e100]
+                - option "Sparrow" [ref=f5e101]
+                - option "Sunbird" [ref=f5e102]
+          - generic [ref=f5e103]:
+            - generic [ref=f5e104]:
+              - generic [ref=f5e105]: Date Picker 1 — MM/DD/YYYY
+              - textbox "Select date..." [ref=f5e106] [cursor=pointer]
+            - generic [ref=f5e107]:
+              - generic [ref=f5e108]: Date Picker 2 — DD/MM/YYYY
+              - textbox "Select date..." [ref=f5e109] [cursor=pointer]
+          - generic [ref=f5e110]:
+            - generic [ref=f5e111]: Date Picker 3 — Range
+            - textbox "Select a date range..." [ref=f5e112] [cursor=pointer]
+          - generic [ref=f5e113]:
+            - button [ref=f5e114] [cursor=pointer]:
+              - img "🚀" [ref=f5e115]
+              - text: Submit Form
+            - button "↺ Reset" [ref=f5e116] [cursor=pointer]
+      - generic [ref=f5e117]:
+        - generic [ref=f5e118]:
+          - img "📁" [ref=f5e120]
+          - heading "File Upload" [level=2] [ref=f5e121]
+          - generic [ref=f5e122]: Section 2
+        - generic [ref=f5e124]:
+          - generic [ref=f5e125]:
+            - generic [ref=f5e126]: Single File
+            - generic [ref=f5e127] [cursor=pointer]:
+              - button "Choose File" [ref=f5e128]
+              - img "📄" [ref=f5e130]
+              - paragraph [ref=f5e131]:
+                - strong [ref=f5e132]: Click to browse
+              - paragraph [ref=f5e133]: Any single file
+          - generic [ref=f5e135]:
+            - generic [ref=f5e136]: Multiple Files
+            - generic [ref=f5e137] [cursor=pointer]:
+              - button "Choose File" [ref=f5e138]
+              - img "📂" [ref=f5e140]
+              - paragraph [ref=f5e141]:
+                - strong [ref=f5e142]: Click to browse
+              - paragraph [ref=f5e143]: Multiple files allowed
+      - generic [ref=f5e145]:
+        - generic [ref=f5e146]:
+          - img "📊" [ref=f5e148]
+          - heading "Static Web Table" [level=2] [ref=f5e149]
+          - generic [ref=f5e150]: Section 3
+        - table [ref=f5e153]:
+          - rowgroup [ref=f5e154]:
+            - row [ref=f5e155]:
+              - columnheader "#" [ref=f5e156]
+              - columnheader "Student Name" [ref=f5e157]
+              - columnheader "Trainer" [ref=f5e158]
+              - columnheader "Course" [ref=f5e159]
+              - columnheader "Batch" [ref=f5e160]
+          - rowgroup [ref=f5e161]:
+            - row [ref=f5e162]:
+              - cell "1" [ref=f5e163]
+              - cell "Arjun Mehta" [ref=f5e164]
+              - cell "Ravi Kumar" [ref=f5e165]
+              - cell "Selenium Basics" [ref=f5e166]
+              - cell "Batch A" [ref=f5e167]
+            - row [ref=f5e169]:
+              - cell "2" [ref=f5e170]
+              - cell "Priya Sharma" [ref=f5e171]
+              - cell "Sneha Patil" [ref=f5e172]
+              - cell "API Testing" [ref=f5e173]
+              - cell "Batch B" [ref=f5e174]
+            - row [ref=f5e176]:
+              - cell "3" [ref=f5e177]
+              - cell "Rohit Verma" [ref=f5e178]
+              - cell "Ravi Kumar" [ref=f5e179]
+              - cell "Cypress Advanced" [ref=f5e180]
+              - cell "Batch A" [ref=f5e181]
+            - row [ref=f5e183]:
+              - cell "4" [ref=f5e184]
+              - cell "Neha Joshi" [ref=f5e185]
+              - cell "Anil Desai" [ref=f5e186]
+              - cell "Playwright Pro" [ref=f5e187]
+              - cell "Batch C" [ref=f5e188]
+            - row [ref=f5e190]:
+              - cell "5" [ref=f5e191]
+              - cell "Karan Patel" [ref=f5e192]
+              - cell "Sneha Patil" [ref=f5e193]
+              - cell "Java for Testers" [ref=f5e194]
+              - cell "Batch B" [ref=f5e195]
+            - row [ref=f5e197]:
+              - cell "6" [ref=f5e198]
+              - cell "Divya Nair" [ref=f5e199]
+              - cell "Anil Desai" [ref=f5e200]
+              - cell "Mobile Testing" [ref=f5e201]
+              - cell "Batch C" [ref=f5e202]
+      - generic [ref=f5e204]:
+        - generic [ref=f5e205]:
+          - img "⚡" [ref=f5e207]
+          - heading "Dynamic Web Table" [level=2] [ref=f5e208]
+          - generic [ref=f5e209]: Section 4
+        - generic [ref=f5e210]:
+          - generic [ref=f5e211]:
+            - textbox "Name" [ref=f5e212]
+            - textbox "Role" [ref=f5e213]
+            - textbox "Department" [ref=f5e214]
+            - button "+ Add Row" [ref=f5e215] [cursor=pointer]
+          - table [ref=f5e217]:
+            - rowgroup [ref=f5e218]:
+              - row [ref=f5e219]:
+                - columnheader "#" [ref=f5e220]
+                - columnheader "Name" [ref=f5e221]
+                - columnheader "Role" [ref=f5e222]
+                - columnheader "Department" [ref=f5e223]
+                - columnheader "Action" [ref=f5e224]
+            - rowgroup [ref=f5e225]:
+              - row [ref=f5e226]:
+                - cell "1" [ref=f5e227]
+                - cell "Meera Iyer" [ref=f5e228]
+                - cell "Test Engineer" [ref=f5e229]
+                - cell "QA Automation" [ref=f5e230]
+                - cell [ref=f5e231]:
+                  - button "Delete" [ref=f5e232] [cursor=pointer]
+      - generic [ref=f5e233]:
+        - generic [ref=f5e234]:
+          - img "📄" [ref=f5e236]
+          - heading "Pagination Web Table" [level=2] [ref=f5e237]
+          - generic [ref=f5e238]: Section 5
+        - generic [ref=f5e239]:
+          - table [ref=f5e241]:
+            - rowgroup [ref=f5e242]:
+              - row [ref=f5e243]:
+                - columnheader "ID" [ref=f5e244]
+                - columnheader "Student Name" [ref=f5e245]
+                - columnheader "Course" [ref=f5e246]
+                - columnheader "City" [ref=f5e247]
+                - columnheader "Status" [ref=f5e248]
+            - rowgroup [ref=f5e249]:
+              - row [ref=f5e250]:
+                - cell "1" [ref=f5e251]
+                - cell "Aarav Singh" [ref=f5e252]
+                - cell "Selenium Automation" [ref=f5e253]
+                - cell "Mumbai" [ref=f5e254]
+                - cell "Enrolled" [ref=f5e255]
+              - row [ref=f5e257]:
+                - cell "2" [ref=f5e258]
+                - cell "Bhavna Reddy" [ref=f5e259]
+                - cell "Cypress Testing" [ref=f5e260]
+                - cell "Hyderabad" [ref=f5e261]
+                - cell "Enrolled" [ref=f5e262]
+              - row [ref=f5e264]:
+                - cell "3" [ref=f5e265]
+                - cell "Chirag Malhotra" [ref=f5e266]
+                - cell "API Testing" [ref=f5e267]
+                - cell "Pune" [ref=f5e268]
+                - cell "Completed" [ref=f5e269]
+              - row [ref=f5e271]:
+                - cell "4" [ref=f5e272]
+                - cell "Deepika Nair" [ref=f5e273]
+                - cell "Playwright Pro" [ref=f5e274]
+                - cell "Bengaluru" [ref=f5e275]
+                - cell "Enrolled" [ref=f5e276]
+          - generic [ref=f5e278]:
+            - generic [ref=f5e279]: Showing 1–4 of 12 items
+            - generic [ref=f5e280]:
+              - button "‹" [disabled]
+              - button "1" [ref=f5e281] [cursor=pointer]
+              - button "2" [ref=f5e282] [cursor=pointer]
+              - button "3" [ref=f5e283] [cursor=pointer]
+              - button "›" [ref=f5e284] [cursor=pointer]
+      - generic [ref=f5e285]:
+        - generic [ref=f5e286]:
+          - img "🗂️" [ref=f5e288]
+          - heading "Tabs" [level=2] [ref=f5e289]
+          - generic [ref=f5e290]: Section 6
+        - generic [ref=f5e291]:
+          - generic [ref=f5e292]:
+            - button [ref=f5e293] [cursor=pointer]:
+              - img "📌" [ref=f5e294]
+              - text: Section 1
+            - button [ref=f5e295] [cursor=pointer]:
+              - img "📌" [ref=f5e296]
+              - text: Section 2
+            - button [ref=f5e297] [cursor=pointer]:
+              - img "📌" [ref=f5e298]
+              - text: Section 3
+          - generic [ref=f5e299]:
+            - paragraph [ref=f5e300]:
+              - text: This is
+              - strong [ref=f5e301]: Section 1
+              - text: . Practice tab switching, content visibility assertions, and DOM state verification with Selenium, Cypress, or Playwright.
+            - button "Submit" [ref=f5e302] [cursor=pointer]
+      - generic [ref=f5e303]:
+        - generic [ref=f5e304]:
+          - img "⏱️" [ref=f5e306]
+          - heading "Dynamic Button — Timer" [level=2] [ref=f5e307]
+          - generic [ref=f5e308]: Section 7
+        - generic [ref=f5e309]:
+          - generic [ref=f5e310]:
+            - generic [ref=f5e311]: 00:00:00
+            - generic [ref=f5e312]: hours · minutes · seconds
+          - generic [ref=f5e313]:
+            - button [ref=f5e314] [cursor=pointer]:
+              - img "▶" [ref=f5e315]
+              - text: START
+            - button "↺ RESET" [ref=f5e316] [cursor=pointer]
+      - generic [ref=f5e317]:
+        - generic [ref=f5e318]:
+          - img "🔔" [ref=f5e320]
+          - heading "Alerts & Popups" [level=2] [ref=f5e321]
+          - generic [ref=f5e322]: Section 8
+        - generic [ref=f5e323]:
+          - paragraph [ref=f5e324]: Custom modal-based alerts — cleaner than native browser dialogs and fully automatable with Selenium/Playwright.
+          - generic [ref=f5e325]:
+            - button [ref=f5e326] [cursor=pointer]:
+              - img "💬" [ref=f5e327]
+              - text: Simple Alert
+            - button [ref=f5e328] [cursor=pointer]:
+              - img "⚠️" [ref=f5e329]
+              - text: Confirm Alert
+            - button [ref=f5e330] [cursor=pointer]:
+              - img "✏️" [ref=f5e331]
+              - text: Prompt Alert
+            - button [ref=f5e332] [cursor=pointer]:
+              - img "🪟" [ref=f5e333]
+              - text: Popup Window
+            - button [ref=f5e334] [cursor=pointer]:
+              - img "🔗" [ref=f5e335]
+              - text: New Tab
+      - generic [ref=f5e336]:
+        - generic [ref=f5e337]:
+          - img "🖱️" [ref=f5e339]
+          - heading "Mouse Hover Dropdown" [level=2] [ref=f5e340]
+          - generic [ref=f5e341]: Section 9
+        - generic [ref=f5e342]:
+          - paragraph [ref=f5e343]:
+            - text: Hover over a button to reveal the dropdown. Use
+            - code [ref=f5e344]: Actions.moveToElement()
+            - text: in Selenium to test hover interactions.
+          - generic [ref=f5e345]:
+            - generic [ref=f5e346]:
+              - button [ref=f5e347] [cursor=pointer]:
+                - img "📱" [ref=f5e348]
+                - text: Mobiles ▾
+              - generic:
+                - link "📱 Samsung":
+                  - /url: "#"
+                  - img "📱"
+                  - text: Samsung
+                - link "🍎 Apple":
+                  - /url: "#"
+                  - img "🍎"
+                  - text: Apple
+                - link "🔴 OnePlus":
+                  - /url: "#"
+                  - img "🔴"
+                  - text: OnePlus
+                - link "⚡ Xiaomi":
+                  - /url: "#"
+                  - img "⚡"
+                  - text: Xiaomi
+            - generic [ref=f5e349]:
+              - button [ref=f5e350] [cursor=pointer]:
+                - img "💻" [ref=f5e351]
+                - text: Laptops ▾
+              - generic:
+                - link "🍎 Apple MacBook":
+                  - /url: "#"
+                  - img "🍎"
+                  - text: Apple MacBook
+                - link "💙 Dell":
+                  - /url: "#"
+                  - img "💙"
+                  - text: Dell
+                - link "🔵 HP":
+                  - /url: "#"
+                  - img "🔵"
+                  - text: HP
+                - link "🟠 Lenovo":
+                  - /url: "#"
+                  - img "🟠"
+                  - text: Lenovo
+      - generic [ref=f5e352]:
+        - generic [ref=f5e353]:
+          - img "👆" [ref=f5e355]
+          - heading "Double Click" [level=2] [ref=f5e356]
+          - generic [ref=f5e357]: Section 10
+        - generic [ref=f5e358]:
+          - paragraph [ref=f5e359]:
+            - text: Double-click the button to copy text from Field 1 into Field 2. Tests
+            - code [ref=f5e360]: Actions.doubleClick()
+            - text: in Selenium.
+          - generic [ref=f5e361]:
+            - generic [ref=f5e362]:
+              - generic [ref=f5e363]: Field 1 — Source
+              - textbox [ref=f5e364]: Hello from Field 1! 👋
+            - generic [ref=f5e365]:
+              - generic [ref=f5e366]: Field 2 — Target (read-only)
+              - textbox "Appears after double-click..." [ref=f5e367]
+          - button [ref=f5e368] [cursor=pointer]:
+            - img "👆" [ref=f5e369]
+            - text: Double Click Me
+          - text: ← double-click!
+      - generic [ref=f5e370]:
+        - generic [ref=f5e371]:
+          - generic [ref=f5e372]: ↔️
+          - heading "Drag and Drop" [level=2] [ref=f5e373]
+          - generic [ref=f5e374]: Section 11
+        - generic [ref=f5e375]:
+          - generic [ref=f5e376]:
+            - generic [ref=f5e377]:
+              - generic [ref=f5e378]: Source
+              - generic [ref=f5e379]:
+                - img "🧩" [ref=f5e381]
+                - generic [ref=f5e382]: Drag Me!
+                - generic [ref=f5e383]: Hold and drag to the target →
+            - generic [ref=f5e384]:
+              - generic [ref=f5e385]: Target
+              - generic [ref=f5e386]:
+                - img "📦" [ref=f5e388]
+                - generic [ref=f5e389]: Drop Here
+                - generic [ref=f5e390]: Release to drop
+          - button "↺ Reset" [ref=f5e391] [cursor=pointer]
+      - generic [ref=f5e392]:
+        - generic [ref=f5e393]:
+          - img "🎚️" [ref=f5e395]
+          - heading "Range Slider" [level=2] [ref=f5e396]
+          - generic [ref=f5e397]: Section 12
+        - generic [ref=f5e398]:
+          - generic [ref=f5e399]:
+            - generic [ref=f5e400]: Price Range
+            - generic [ref=f5e401]:
+              - generic [ref=f5e403] [cursor=pointer]
+              - generic [ref=f5e404] [cursor=pointer]
+            - generic [ref=f5e405]:
+              - generic [ref=f5e406]: ₹0
+              - generic [ref=f5e407]: ₹50,000
+            - generic [ref=f5e408]:
+              - generic [ref=f5e409]:
+                - generic [ref=f5e410]: MIN
+                - text: ₹2,000
+              - generic [ref=f5e411]: —
+              - generic [ref=f5e412]:
+                - generic [ref=f5e413]: MAX
+                - text: ₹30,000
+          - generic [ref=f5e414]:
+            - generic [ref=f5e415]: Volume
+            - slider [ref=f5e416] [cursor=pointer]: "60"
+            - generic [ref=f5e417]: 60%
+      - generic [ref=f5e418]:
+        - generic [ref=f5e419]:
+          - img "🔷" [ref=f5e421]
+          - heading "SVG Elements" [level=2] [ref=f5e422]
+          - generic [ref=f5e423]: Section 13
+        - img [ref=f5e426]:
+          - generic [ref=f5e428]: Circle
+          - generic [ref=f5e429]: r = 65
+          - generic [ref=f5e431]: Rectangle
+          - generic [ref=f5e432]: 130 × 130
+          - generic [ref=f5e434]: Triangle
+          - generic [ref=f5e436]: Ellipse
+          - generic [ref=f5e437]: 75 × 50
+      - generic [ref=f5e438]:
+        - generic [ref=f5e439]:
+          - img "🔗" [ref=f5e441]
+          - heading "Labels and Links" [level=2] [ref=f5e442]
+          - generic [ref=f5e443]: Section 14
+        - generic [ref=f5e445]:
+          - generic [ref=f5e446]:
+            - generic [ref=f5e447]:
+              - heading [level=4] [ref=f5e448]:
+                - img "📱" [ref=f5e449]
+                - text: Mobile Labels
+              - generic [ref=f5e450]:
+                - generic [ref=f5e451]:
+                  - img "📱" [ref=f5e452]
+                  - text: Samsung
+                - generic [ref=f5e453]:
+                  - img "📱" [ref=f5e454]
+                  - text: RealMe
+                - generic [ref=f5e455]:
+                  - img "📱" [ref=f5e456]
+                  - text: Moto
+            - generic [ref=f5e457]:
+              - heading [level=4] [ref=f5e458]:
+                - img "💻" [ref=f5e459]
+                - text: Laptop Links
+              - generic [ref=f5e460]:
+                - link [ref=f5e461] [cursor=pointer]:
+                  - /url: https://www.apple.com
+                  - img "🍎" [ref=f5e462]
+                  - text: Apple
+                  - img "↗" [ref=f5e463]
+                - link [ref=f5e464] [cursor=pointer]:
+                  - /url: https://www.lenovo.com
+                  - text: Lenovo
+                  - img "↗" [ref=f5e465]
+                - link [ref=f5e466] [cursor=pointer]:
+                  - /url: https://www.dell.com
+                  - text: Dell
+                  - img "↗" [ref=f5e467]
+          - generic [ref=f5e469]:
+            - heading [level=4] [ref=f5e470]:
+              - img "🚫" [ref=f5e471]
+              - text: Broken Links (Error Codes)
+            - generic [ref=f5e472]:
+              - link "400" [ref=f5e473] [cursor=pointer]:
+                - /url: "#"
+              - link "401" [ref=f5e474] [cursor=pointer]:
+                - /url: "#"
+              - link "403" [ref=f5e475] [cursor=pointer]:
+                - /url: "#"
+              - link "404" [ref=f5e476] [cursor=pointer]:
+                - /url: "#"
+              - link "408" [ref=f5e477] [cursor=pointer]:
+                - /url: "#"
+              - link "500" [ref=f5e478] [cursor=pointer]:
+                - /url: "#"
+              - link "502" [ref=f5e479] [cursor=pointer]:
+                - /url: "#"
+              - link "503" [ref=f5e480] [cursor=pointer]:
+                - /url: "#"
+    - generic:
+      - generic:
+        - generic:
+          - img "💬"
+        - heading "Simple Alert" [level=3]
+        - paragraph: This is a simple informational alert. It does not require any user decision — just acknowledgement.
+        - generic:
+          - button "OK, Got it"
+    - generic:
+      - generic:
+        - generic:
+          - img "⚠️"
+        - heading "Confirmation Required" [level=3]
+        - paragraph: Are you sure you want to proceed? This action cannot be undone.
+        - generic:
+          - button "Cancel"
+          - button "Yes, Confirm"
+    - generic:
+      - generic:
+        - generic:
+          - img "✏️"
+        - heading "Prompt Alert" [level=3]
+        - paragraph: "Please type your name to continue:"
+        - textbox "Your name here..."
+        - generic:
+          - button "Cancel"
+          - button "Submit"
+  - generic [ref=f5e481]: desktop
